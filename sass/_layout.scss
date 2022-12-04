@@ -10,19 +10,24 @@
     height: 7rem;
     background-color: #fff; //white
     border-bottom: var(--color-grey-light-2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 .content {
-
+    display: flex;
 }
 
 .sidebar {
     background-color: var(--color-grey-dark-1);
+    flex: 0 0 18%; //grow shrink base
 
 }
 
 .hotel-view {
     background-color: #fff;
+    flex: 1;
 
 }
