@@ -206,3 +206,9 @@ body {
   color: var(--color-grey-light-4);
   text-align: center;
   padding: 2rem; }
+
+.galery {
+  display: flex; }
+  .galery__photo {
+    width: 100%;
+    display: block; }
