@@ -200,3 +200,21 @@
     text-align: center;
     padding: 2rem;
 }
+
+////////////////////////////////////////
+/// MAIN AREA
+
+.galery {
+    display: flex;
+
+
+
+    &__item {
+
+    }
+
+    &__photo {
+        width: 100%;
+        display: block;
+    }
+}
